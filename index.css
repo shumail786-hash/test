@@ -1,0 +1,327 @@
+* {
+    /* transition: 1.2s; */
+    scroll-behavior: smooth;
+    padding:0;
+    margin: 0;
+}
+
+.mainslider {
+    width: 100vw;
+    height: 200vh;
+}
+
+.mainslider img {
+    width: 100%;
+}
+
+.div1 {
+    height: 70vh;
+}
+
+.div1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.iconf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 92, 147, .1);
+    transition: .2s;
+}
+
+.fa-gift,
+.fa-fingerprint {
+    font-size: 30px;
+    color: #1c5c93;
+    transition: .2s;
+}
+
+.iconh:hover .iconf {
+    background-color: rgba(28, 92, 147, 1);
+    transition: .2s;
+}
+
+.iconh:hover .fa-fingerprint {
+    transition: .2s;
+    color: white;
+}
+
+.iconh:hover .fa-gift {
+    color: white;
+    transition: .2s;
+}
+
+.circ {
+    width: 80px;
+    height: 80px;
+    transition-duration: .8s;
+    box-shadow: 0px 0px 5px 0px rgb(189, 189, 189);
+}
+
+.circ:hover {
+    transition: .8s;
+    box-shadow: 0px 0px 19px 0px #5098d6;
+}
+
+.ph {
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.ph:hover {
+    color: #1c5c93;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.port1 {
+    cursor: pointer;
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-1.jpg);
+    height: 40vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.port2 {
+    transition-duration: .5s;
+    background-image: url(./port/portfolio-2.jpg);
+    transition: all transform;
+}
+
+.port3 {
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-3.jpg);
+}
+
+.hov {
+    /* transition-duration: .5s; */
+    width: 60%;
+    position: relative;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    display: none;
+}
+
+.cir {
+    display: flex;
+    justify-content: space-around;
+}
+
+.port1:hover {
+    /* transition: .5s */
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-1.jpg);
+    transform: scale(1.1);
+}
+
+.port1:hover .hov {
+    display: block;
+}
+
+.iho {
+    width: 40px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #fff;
+}
+
+.iho:hover {
+    border: none;
+    background-color: #1c5c93;
+}
+
+.iho:hover .iii {
+    color: white;
+    cursor: pointer;
+
+}
+
+.iii {
+    color: #1c5c93;
+    line-height: 30px;
+}
+
+.port2:hover {
+    /* transition: .5s */
+    cursor: pointer;
+    transition: .4s;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-2.jpg);
+    transform: scale(1.1);
+}
+.port3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-3.jpg);
+    transform: scale(1.1);
+    transition: .4s;
+}
+.port4
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-4.jpg);
+}
+.port4:hover
+{   
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-4.jpg);
+    transition: .4s;
+}
+.port5
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-5.jpg);
+}
+.port5:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-5.jpg);
+    transition: .4s;
+}
+.port6
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-6.jpg);
+}
+.port6:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-6.jpg);
+    transition: .4s;
+}
+.port7
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-7.jpg);
+}
+.port7:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-7.jpg);
+    transition: .4s;
+}
+.port8
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-8.jpg);
+}
+.port8:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-8.jpg);
+    transition: .4s;
+}
+.port9
+{
+    transition-duration: .5s;
+    transition: all transform;
+    background-image: url(./port/portfolio-9.jpg);
+}
+.port9:hover
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(./port/portfolio-9.jpg);
+    transition: .4s;
+}
+.our-team{
+    padding: 50px;
+}
+
+.our-team .h1{
+    color: #1C5C93;
+}
+
+.team-card > div{
+    position: relative;
+    /* border: 2px solid red; */
+    /* height: 270px; */
+    overflow: hidden;
+    /* background: url(slide-1.jpg); */
+}
+
+.team-card img{
+    width: 100%;
+    height: 100%;
+    transition: all transform;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.team-card:hover img
+{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.team-card-text
+{
+    position: absolute;
+    height: 100px;
+    padding-bottom: 10px;
+    bottom: 60px;
+    width: 90%;
+    background-image: linear-gradient(to bottom, rgba(92,118,141,.5),rgba(92, 118, 121, 1));
+}
+.teamhr
+{
+    height: 2px;
+    border: 1px solid white;
+    width: 25%;
+    background-color: #fff;
+    margin: auto;
+}
+.ques{
+    background: #F5F9FC;
+    padding: 20px 0;
+}
+
+.contact{
+    padding: 20px 0;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(199, 198, 198, 0.4);
+    padding: 25px 0;
+    background: white;
+}
+
+.contact-card i{
+    border: 2px dotted #428BCA;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #428BCA;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.contact form{
+    box-shadow: 0 0 15px rgba(199, 198, 198, 0.4);
+    margin-top: 2px;
+    padding: 20px 0;
+}
+
+.footer{
+    background: #5C768D;
+}
+
+.f-icons i{
+    color: white;
+    font-size: 17px;
+    margin: 0 4px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #768FA6;
+}
+
+.f-icons i:hover{
+    background: #00A6EB;
+    cursor: pointer;
+}

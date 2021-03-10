@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/5b1485d708.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- Nave Bar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: sticky; top: 0; z-index: 999;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        style=" margin-left: 70px; letter-spacing: 1.2px; color: #1c5c93; font-size: 2rem;">MAMBA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0" style="position: relative; left: 45%;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+              <li><a class="dropdown-item " href="#">Deep Drop Down</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav Bar End -->
+
+  <!-- Automatic slider start -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <!-- 1st Slider image -->
+    <div class="mainslder">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./slide-1.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+          <div class="carousel-caption d-none d-mx-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <!-- 2nd SLider Image -->
+        <div class="carousel-item">
+          <img src="./slide-2.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <!-- 3rd Slider Image -->
+        <div class="carousel-item">
+          <img src="./slide-3.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"
+      style="color: blueviolet;">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="color: blueviolet;"></span>
+      <span class="visually-hidden" style="color: blueviolet;">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Automatic slider end -->
+
+  <!-- About Us Section started -->
+  <div data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <div class="card mb-3 mx-auto contain"
+        style="max-width: 1500px;margin-top: 100px;box-shadow: 0px 0px 5px 5px silver;">
+        <div class="row g-0">
+          <div class="col-md-4 div1">
+            <img src="./about.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h1 class="card-title fw-bold" style="text-align: center; color: #1C5C93;">ABOUT US</h1>
+              <p class="card-text" style="text-align: center;">Magnam dolores commodi suscipit. Necessitatibus
+                eius consequatur <br>ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+                <br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+              <div class="card mb-3 iconh mx-auto" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4 iconf" style="max-height: 110px;">
+                    <i class="fas fa-fingerprint"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Lorum Ipsum</h5>
+                      <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas
+                        molestias
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 iconh mx-auto" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4 iconf" style="max-height: 100px;">
+                    <i class="fas fa-gift"></i>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Nemo Enim</h5>
+                      <p class="card-text">This is a wider card with supporting text below.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Us Section Ended -->
+
+  <!-- 06 Cards of Lorem Ipsum has started -->
+
+  <div class="container mx-auto" style="margin-top: 10vh;">
+    <div class="row">
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue;border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">01</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">02</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue; border-bottom: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">03</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto">
+    <div class="row">
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">04</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue; display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">05</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+      <div class="col-md"
+        style="height: 35vh; border-right: 1px solid skyblue;  display: flex; flex-direction: column; justify-content: space-around;">
+        <p class="h4" style="color: skyblue;">06</p>
+        <h2 style="color: rgb(39, 39, 39); font-weight: 400;">Lorem Ipsum</h2>
+        <p class="h6" style="font-size: 1.2rem; font-weight: lighter; letter-spacing: 1.1px; color: grey;">
+          Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 06 cards of lorem ipsum has ended -->
+
+  <!-- Happy clients section started -->
+  <div class="container-fluid mt-5" style=" background-color: #F5F9FC; padding-bottom: 10vh;">
+    <div class="container-fluid mx-auto">
+      <div class="row mx-auto">
+        <div class="col-md-2 mx-auto"
+          style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+          <h2 class="mx-auto"
+            style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">232
+          </h2>
+          <p class="mx-auto" style="text-align: center;"> Happy Clients</p>
+        </div>
+        <div class="col-md-2 mx-auto"
+          style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+          <h2 class="mx-auto"
+            style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">521
+          </h2>
+          <p class="mx-auto" style="text-align: center;"> Projects</p>
+        </div>
+        <div class="col-md-2 mx-auto"
+          style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+          <h2 class="mx-auto"
+            style="text-align: center;  margin-top: 30px; color: #1C5C93; font-size: 3rem; font-weight: bolder;">1463
+          </h2>
+          <p class="mx-auto" style="text-align: center;"> Hours of Work</p>
+        </div>
+        <div class="col-md-2 mx-auto"
+          style=" background-color: white; margin-top: 10vh; height: 130px; box-shadow: 0px 0px 5px 0px grey;">
+          <h2 class="mx-auto"
+            style="text-align: center;  margin-top: 30px;  color: #1C5C93; font-size: 3rem; font-weight: bolder;">15
+          </h2>
+          <p class="mx-auto" style="text-align: center;"> Hard Workers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Happy clients section ended -->
+
+  <!-- Services section has started -->
+  <div class="container-fluid mt-md-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mx-md-auto">
+          <h2 style=" text-align: center; color: rgb(53, 53, 53);">Services</h2>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="far fa-comment-dots"
+                  style="margin-left: 21px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="fas fa-people-carry"
+                  style="margin-left: 17px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="fas fa-globe"
+                  style="margin-left: 21px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="fas fa-broadcast-tower"
+                  style="margin-left: 19px; line-height: 80px; font-size: 2.2rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="far fa-sun"
+                  style="margin-left: 20px; line-height: 80px; font-size: 2.5rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <div class="rounded-circle mx-auto circ">
+                <i class="far fa-calendar-minus"
+                  style="margin-left: 25px; line-height: 80px; font-size: 2.3rem; color: #1c5c93;"></i>
+              </div>
+              <p class="h4 ph">Lorem Ipsum</p>
+              <hr class="dropdown-divider w-25 mx-auto mt-3">
+              <p class="h6" style="font-weight: lighter; text-align: center;">
+                Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services section has ended -->
+
+  <!-- Our portfolio section has started -->
+  <div class="container-fluid mt-5 pb-5" style="background-color: #F5F9FC;">
+    <div class="container">
+      <div class="mx-auto" style="text-align: center; color: #1C5C93;">
+        <h1>Our Portfolio</h1>
+        <p class="h6 mt-md-2 mt-sm-3"
+          style="text-align: center; color: black; letter-spacing: 1.1px; font-family: calibri; font-size: 1.1rem;">
+          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.
+        </p>
+      </div>
+      <!-- Button section started -->
+      <div class="container mt-5">
+        <div class="row mx-auto">
+          <div class="col-2 mx-auto">
+            <button type="button" class="btn btn-outline-primary active all">ALL</button>
+          </div>
+          <div class="col-2 mx-auto">
+            <button type="button" class="btn btn-outline-primary app">APP</button>
+          </div>
+          <div class="col-2 mx-auto">
+            <button type="button" class="btn btn-outline-primary cardvi">CARD</button>
+          </div>
+          <div class="col-2 mx-auto">
+            <button type="button" class="btn btn-outline-primary webvi">WEB</button>
+          </div>
+        </div>
+      </div>
+      <!-- Button section ended -->
+    </div>
+    <!-- Images section of portfolio started -->
+    <div class="container mt-5 flew">
+      <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port2">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 2</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port3">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 3</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="container-fluid">
+          <div class="row" style="overflow: hidden;">
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port4">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 4</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port5">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 5</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port6">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 6</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="container-fluid">
+          <div class="row" style="overflow: hidden;">
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port7">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 7</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port8">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 8</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ml-1 mt-2 mx-auto port1 port9">
+              <div class="hov">
+                <p class="h3" style="color: white;">App 9</p>
+                <p class="h6" style="color: white;">App</p>
+                <div class="cir">
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-plus iii"></i>
+                  </div>
+                  <div class="rounded-circle mx-auto iho">
+                    <i class="fas fa-unlink iii"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Images section has ended -->
+  </div>
+  <!-- Our portfolio has ended -->
+  <!-- Team Section has started -->
+  <div class="container our-team">
+    <p class="h1 text-center" style="color: #5c768d">Our Team</p>
+    <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+    </p>
+    <div class="row">
+      <div class="col-lg-3 col-md-5 col-sm-5 mt-sm-4 rounded team-card">
+        <div>
+          <img src="./team/team-1.jpg"></div>
+        <div class="mx-auto team-card-text ">
+          <p class=" h5 text-center text-light">Walter White</p>
+          <div class="teamhr"></div>
+          <p class="h6 mx-auto mt-1 text-center text-light">Chief Executive Officer</p>
+          <div class="ic mt-3" style="display: flex; justify-content: space-evenly;">
+            <i class="fab fa-twitter" style="color: white;"></i>
+            <i class="fab fa-facebook" style="color: white;"></i>
+            <i class="fab fa-instagram" style="color: white;"></i>
+            <i class="fab fa-linkedin" style="color: white;"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-sm-5 mt-sm-4 rounded team-card">
+        <div>
+          <img src="./team/team-2.jpg"></div>
+        <div class="mx-auto team-card-text">
+          <p class=" h5 text-center text-light">Sarah Jhonson</p>
+          <div class="teamhr"></div>
+          <p class="h6 mx-auto mt-1 text-center text-light">Product Manager</p>
+          <div class="ic mt-3" style="display: flex; justify-content: space-evenly;">
+            <i class="fab fa-twitter" style="color: white;"></i>
+            <i class="fab fa-facebook" style="color: white;"></i>
+            <i class="fab fa-instagram" style="color: white;"></i>
+            <i class="fab fa-linkedin" style="color: white;"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-sm-5 mt-sm-4 rounded team-card">
+        <div>
+          <img src="./team/team-3.jpg "></div>
+        <div class="mx-auto team-card-text ">
+          <p class=" h5 text-center text-light">William Anderson</p>
+          <div class="teamhr"></div>
+          <p class="h6 mx-auto mt-1 text-center text-light">CTO</p>
+          <div class="ic mt-3" style="display: flex; justify-content: space-evenly;">
+            <i class="fab fa-twitter" style="color: white;"></i>
+            <i class="fab fa-facebook" style="color: white;"></i>
+            <i class="fab fa-instagram" style="color: white;"></i>
+            <i class="fab fa-linkedin" style="color: white;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-5 col-sm-5 mt-sm-4 rounded team-card">
+        <div>
+          <img src="./team/team-4.jpg"></div>
+        <div class="mx-auto team-card-text ">
+          <p class=" h5 text-center text-light">Amanda Jepson</p>
+          <div class="teamhr"></div>
+          <p class="h6 mx-auto mt-1 text-center text-light">Accountant</p>
+          <div class="ic mt-3" style="display: flex; justify-content: space-evenly;">
+            <i class="fab fa-twitter" style="color: white;"></i>
+            <i class="fab fa-facebook" style="color: white;"></i>
+            <i class="fab fa-instagram" style="color: white;"></i>
+            <i class="fab fa-linkedin" style="color: white;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team Section has ended -->
+
+  <!-- Frequently asked question section started -->
+  <div class="container-fuild ques">
+    <div class="container">
+      <p class="h1 text-center" style="color: #6E859A;font-size: 2rem;">Frequently Asked Questions</p>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Non consectetur a erat nam at lectus urna duis?</p>
+          <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+          <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</p>
+          <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</p>
+          <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>
+          <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-5">
+          <p class="h4">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</p>
+          <p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid contact" style="background: white;">
+    <div class="container">
+      <p class="h1 text-center">Contact Us</p>
+      <div class="row mt-5" style="background: #F5F9FC; padding: 20px 0;">
+        <div class="col-lg-5 mt-sm-4 mx-auto contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <p class="h4 my-3">Our Address</p>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+        <div class="col-lg-3 mt-sm-4 mx-auto contact-card">
+          <i class="far fa-envelope"></i>
+          <p class="h4 my-3">Email Us</p>
+          <p class="my-0">info@example.com</p>
+          <p class="my-0">contact@example.com</p>
+        </div>
+        <div class="col-lg-3 mt-sm-4 mx-auto contact-card">
+          <i class="fas fa-phone-volume"></i>
+          <p class="h4 my-3">Call Us</p>
+          <p class="my-0">+1 5589 55488 55</p>
+          <p class="my-0">+1 6678 254445 41</p>
+        </div>
+      </div>
+      <!-- FORM -->
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control py-2 rounded-0" id="inputEmail4" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="password" class="form-control py-2 rounded-0" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control py-2 rounded-0" id="inputAddress" placeholder="Addresss">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="button" class="btn btn-primary fs-6" style="background: #428BCA; border-radius: 0;padding: 10px 30px;">Send Message</button>
+        </div>
+      </form>
+      <!-- End FORM -->
+    </div>
+  </div>
+
+  <!-- FOOTER START -->
+  <div class="container-fluid footer">
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-lg-3">
+          <p class="h4 text-white">Mamba</p>
+          <p class="text-white my-4 fs-6">A108 Adam Street<br>
+            NY 535022, USA</p>
+          <p class="text-white my-0"><b>Phone:</b> +1 5589 55488 55</p>
+          <p class="text-white my-0"><b>Email:</b> info@example.com</p>
+          <div class="d-flex f-icons mt-3"><i class="fab fa-twitter"></i><i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i></div>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+      </div>
+    </div>  
+  </div>
+
+</body>
+<script>
+  AOS.init();
+  // Getting btns of portfolio to render data in 'flew' div of HTML
+  let few = document.querySelector('.flew')
+  let all = document.querySelector('.all')
+  let app = document.querySelector('.app')
+  let cardvi = document.querySelector('.cardvi')
+  let webvi = document.querySelector('.webvi')
+  // console.log(webvi);
+  all.addEventListener('click', () => {
+    few.innerHTML = `
+    <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port2">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 2</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port3">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 3</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+      <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port4">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 4</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port5">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 5</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port6">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 6</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port7">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 7</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port8">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 8</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port9">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 9</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    `
+  })
+  app.addEventListener('click', () => {
+    few.innerHTML = `
+    <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port2">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port3">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    `
+  })
+  cardvi.addEventListener('click', () => {
+    few.innerHTML = `
+    <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port4">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port5">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port6">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `
+  })
+  webvi.addEventListener('click', () => {
+    few.innerHTML = `
+    <div class="container-fluid">
+        <div class="row" style="overflow: hidden;">
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port7">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port8">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ml-1 mt-2 mx-auto port1 port9">
+            <div class="hov">
+              <p class="h3" style="color: white;">App 1</p>
+              <p class="h6" style="color: white;">App</p>
+              <div class="cir">
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-plus iii"></i>
+                </div>
+                <div class="rounded-circle mx-auto iho">
+                  <i class="fas fa-unlink iii"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `
+  })
+</script>
+
+</html>
